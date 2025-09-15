@@ -1,4 +1,4 @@
-# **OcuSight — Glaucoma Risk Prediction**
+# **OcuSight - Glaucoma Risk Prediction**
 
 OcuSight is a machine learning prototype that predicts glaucoma risk using clinical and wearable features.  
 The project demonstrates an end-to-end workflow with model benchmarking, explainability using SHAP.  
@@ -25,12 +25,12 @@ The project demonstrates an end-to-end workflow with model benchmarking, explain
 ---
 
 ## **Streamlit Application**
+
 Run locally:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
----
+```
 ## **Or try the live demo here:**
+https://ocusight.streamlit.app/
 
-```bash
-https://ocusight.streamlit.app
