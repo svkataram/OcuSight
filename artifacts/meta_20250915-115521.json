@@ -1,0 +1,17 @@
+{
+  "features": [
+    "age",
+    "gender",
+    "iop",
+    "cct",
+    "heart_rate",
+    "bp_sys",
+    "screen_time_h",
+    "sleep_h",
+    "blink_per_min",
+    "pupil_mm"
+  ],
+  "threshold": 0.24808596074581146,
+  "cv_auc_mean": 0.7451174451861298,
+  "cv_auc_sd": 0.010698411297268671
+}

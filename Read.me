@@ -1,0 +1,33 @@
+OcuSight - Glaucoma Risk Prediction
+
+OcuSight is a machine learning prototype that predicts glaucoma risk using clinical and wearable features.
+The project benchmarks multiple models and demonstrates explainability through SHAP.
+A Streamlit app is included for interactive testing.
+
+Dataset
+
+Synthetic dataset of 25,000git init
+git add .
+git commit -m "Initial commit: OcuSight glaucoma risk prediction project"
+git branch -M main
+git remote add origin https://github.com/<your-username>/OcuSight.git
+git push -u origin main
+ patients (~32% glaucoma risk).
+
+Features include clinical measures (IOP, CCT, BP, heart rate, pupil size) and lifestyle factors (screen time, sleep, blink rate), plus engineered ratios.
+
+Methods and Results
+
+Models tested: Logistic Regression, Random Forest, SVM, MLP, XGBoost.
+
+XGBoost achieved the best performance (Accuracy ~87%, AUC ~0.83).
+
+SHAP confirmed clinically meaningful drivers such as corneal thickness and intraocular pressure.
+
+Usage
+pip install -r requirements.txt
+streamlit run app.py
+
+Disclaimer
+
+Educational project only. Not for clinical use.

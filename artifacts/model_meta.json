@@ -1,0 +1,24 @@
+{
+  "features": [
+    "age",
+    "gender",
+    "iop",
+    "cct",
+    "heart_rate",
+    "bp_sys",
+    "screen_time_h",
+    "sleep_h",
+    "blink_per_min",
+    "pupil_mm",
+    "iop_cct_ratio",
+    "screen_sleep_ratio",
+    "age_iop",
+    "bp_screen"
+  ],
+  "accuracy": 0.8722,
+  "auc": 0.8260378230144009,
+  "precision": 0.9825046040515654,
+  "recall": 0.6324836988737403,
+  "f1": 0.7695636494771007,
+  "threshold": 0.5
+}
